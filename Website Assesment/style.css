@@ -1,0 +1,14 @@
+ul.menu-bar {
+    list-style-type: none;
+    padding: 50;
+}
+
+ul.menu-bar li {
+    display: inline;
+    margin-right: 50px;
+}
+
+ul.menu-bar img {
+    width: 62.65px;
+    height: 54px;
+}
