@@ -1,0 +1,73 @@
+/* Possibly using live server */
+
+/* Import custom font family I am using */
+@font-face {
+    font-family: 'Header-Font';
+    src: url('Font/Witch\ Magic.ttf') format('woff2'),
+         url('Font/Witch\ Magic.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* html modifiers to set no margins throughout code (FOR TESTING) */
+html {
+    background-color: white;
+    margin: -8px;
+}
+
+/* Body modifiers (FOR TESTING) */
+body {
+    background-color: #0e0e0e;
+}
+
+/* Modifies header div, turns it black, sets size */
+div.header {
+    background-color: black;
+    height: 125px;
+}
+
+/* Modifies nav for menu-bar, turns it black, moves to right, sets up sticky scrolling */
+nav.menu-bar {
+    background-color: black;
+
+    float: right;
+
+    position: sticky;
+    top: 15px;
+    z-index: 200;
+}
+
+/* Modifies list for menu-bar, removes bullets, adds padding */
+ul.menu-bar {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+}
+
+/* Modifies list elements in menu-bar, margin for positioning */
+ul.menu-bar li {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/* Modifies links in menu-bar, removes line under text, sets color/font */
+ul.menu-bar a {
+    text-decoration: none;
+    color: #e60000;
+    font-family: 'Header-Font', sans-serif;
+}
+
+/* Modifies witcher logo, margin for positioning, sizing logo */
+#witcher-logo {
+    margin-top: 25px;
+    margin-left: 10px;
+
+    width: 83px;
+    height: 72px;
+}
+
+/* TESTING */
+p {
+    color: white;
+    font-size: 500px;
+}
