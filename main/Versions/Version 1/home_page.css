@@ -1,0 +1,21 @@
+
+html { margin: -8px; } /* No margining by default */
+
+/* Header div */
+.header {
+    width: 100%;
+    height: 150px;
+
+    /* TESTING */
+    background-color: black;
+}
+
+.navbar {
+    width: 35%;
+    height: 150px;
+
+    float: right;
+
+    /* TESTING */
+    background-color: blue;
+}
