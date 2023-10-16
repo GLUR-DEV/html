@@ -1,0 +1,67 @@
+/* CSS for basic home page layout. NOTE: Subject to change */
+
+body { margin: 0; } /* No margin by default */
+
+/* Header div */
+.header {
+    width: 100%;
+    height: 125px;
+
+    position: relative;
+
+    /* TESTING */
+    background-color: #0A0A0A;
+}
+
+/* TESTING */
+.header h1 {
+    margin: 0px;
+    position: absolute;
+    
+    color: #FFFFFF;
+    font-size: 100px;
+}
+
+.navbar {
+    width: 35%;
+    height: 95px;
+
+    float: right;
+    margin-top: 15px;
+
+    /* TESTING */
+    background-color: #0A0A0A;
+}
+
+.maincontent-block {
+    width: 100%;
+    height: 400px;
+
+    /* TESTING */
+    background-color: #000000;
+}
+
+/* TESTING */
+.maincontent-block p {
+    margin: 0px;
+
+    color: #E60000;
+    font-size: 50px;
+}
+
+.secondarycontent-block {
+    width: 100%;
+    height: 600px;
+
+    /* TESTING */
+    background-color: #000000;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+
+    /* TESTING */
+    background-color: #FFFFFF;
+}
+
